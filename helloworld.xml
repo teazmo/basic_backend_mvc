@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="component" version="3.5.1" method="upgrade">
+<name>com_helloworld</name>
+<author>Timo Ihnken</author>
+<authorEmail>info@see-m-why-k.com</authorEmail>
+<authorUrl>www.see-m-why-k.com</authorUrl>
+<creationDate>2016-05-13</creationDate>
+<version>0.0.1</version>
+<description>Hello World!</description>
+<files folder="site">
+    <filename>helloworld.php</filename>
+</files>
+<administration>
+    <menu link="index.php?option=com_helloworld">Hello World!</menu>
+    <files folder="admin">
+        <filename>helloworld.php</filename>
+        <filename>controller.php</filename>
+        <folder>views</folder>
+        <folder>models</folder>
+    </files>
+</administration>
+</extension>
